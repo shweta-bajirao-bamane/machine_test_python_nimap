@@ -25,6 +25,6 @@ I have not implemented authentication in this project, so I am passing the creat
 
 **------------This is the Postman API link---------**
 
-https://www.postman.com/prushal/nimap/collection/z0ng6fh/nimap?action=share&source=copy-link&creator=42518471
+https://www.postman.com/prushal/nimap/documentation/z0ng6fh/nimap
 
 
