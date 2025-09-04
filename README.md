@@ -21,6 +21,8 @@
 4. python manage.py makemigrations
 5. python manage.py migrate
 
+I have not implemented authentication in this project, so I am passing the created_by field through the input request.
+
 **------------This is the Postman API link---------**
 
 https://www.postman.com/prushal/nimap/collection/z0ng6fh/nimap?action=share&source=copy-link&creator=42518471
