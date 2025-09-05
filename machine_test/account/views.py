@@ -12,7 +12,7 @@ from .serializers import ClientCreateUpdateSerializer, ClientDetailSerializer, C
 # -------Client API View
 class ClientAPIView(APIView):
     
-    def get(self, pk=None):
+    def get(self, request, pk=None):
         if pk:
             client = get_object_or_404(Client, pk=pk)
             serializer = ClientDetailSerializer(client)
@@ -59,7 +59,7 @@ class ClientAPIView(APIView):
             return Response({"error": f"Something went wrong: {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
     
     
-    def delete(self, pk):
+    def delete(self, request, pk):
         client = get_object_or_404(Client, pk=pk)
         client.delete()
         return Response({"message": "Client deleted"}, status=status.HTTP_204_NO_CONTENT)
