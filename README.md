@@ -4,20 +4,22 @@
  
    git clone https://github.com/shweta-bajirao-bamane/machine_test_python_nimap.git
 
-2. Create a Virtual Environment
+   and open folder
+
+3. Create a Virtual Environment
    python -m venv .venv
    
-3. Activate it
+4. Activate it
   .venv\Scripts\Activate
    
-4. Install django
+5. Install django
    python -m pip install django
 
-5. cd machine_test
-6. pip install django-environ
-7. pip install djangorestframework
-8. pip install mysqlclient
-9. py manage.py runserver 0.0.0.0:8001
+6. cd machine_test
+7. pip install django-environ
+8. pip install djangorestframework
+9. pip install mysqlclient
+10. py manage.py runserver 0.0.0.0:8001
     
 **----------Project Setup-----------**
 
