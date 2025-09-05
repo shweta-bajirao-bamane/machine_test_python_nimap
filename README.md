@@ -26,10 +26,11 @@
 1. pythom -m dgango startproject machine_test
 2. cd machine_test
 3. python manage.py startapp account
-4. create .env file 
-5. python manage.py makemigrations
-6. python manage.py migrate
-7. py manage.py runserver 0.0.0.0:8001
+4. create .env file
+5. create database name as nimap_db 
+6. python manage.py makemigrations
+7. python manage.py migrate
+8. py manage.py runserver 0.0.0.0:8001
 
 I have not implemented authentication in this project, so I am passing the created_by field through the input request.
 
